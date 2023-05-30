@@ -1,8 +1,3 @@
-"""
-Created on Thu Oct 22 10:25:03 2020
-
-@author: Marina e Nicolo
-"""
 
 def copmute_features_voting_deputies(df_deputy,df_votes,mesi_thr):
     
