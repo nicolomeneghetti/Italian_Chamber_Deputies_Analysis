@@ -22,7 +22,7 @@ from sklearn.dummy import DummyClassifier
 from datetime import datetime, timedelta
 from sklearn.utils import shuffle
 from sklearn.feature_selection import mutual_info_classif
-import copmute_features_voting_deputies
+from compute_features_voting_deputies import compute_features_voting_deputies
 
 def cross_val_function(model, X : np.array, y : np.array):
 
@@ -207,7 +207,6 @@ for loop_ind in range(0,121,30):
     
     
 ###############################################################################
-# analisi delle fatures - plurigruppo già usciti
 important_features = np.zeros((14,121))
 for time_points in range(121):
     if(len(selected_features_list_already_out[time_points])>0):
