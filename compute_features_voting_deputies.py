@@ -1,5 +1,5 @@
 
-def copmute_features_voting_deputies(df_deputy,df_votes,mesi_thr):
+def compute_features_voting_deputies(df_deputy,df_votes,mesi_thr):
     
     import pandas as pd
     import numpy as np
