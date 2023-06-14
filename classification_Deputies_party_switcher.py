@@ -82,7 +82,7 @@ def analysis_MP_already_out(X,y_already_out):
     return chance_level_already_out,np.mean(accuracy_tmp),np.mean(accuracy_error_tmp)
 
 
-#%% DATA LOADING
+#%% DATA LOADING - we do not own the data therefore we can't put them in Github. They are freely available at https://dati.camera.it/it/
 
 # load df_deputies which is a dataframe that contains the following columns: 
 # 'persona' -> link to the Deputy's personal page on the Chamber of Deputies website
