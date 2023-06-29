@@ -54,3 +54,5 @@ The main codes are the following two:
 
 
 -) MAIN_Prediction_Deputies_party_switcher: contains the code for running the prediction algorithm between single-party and pluri-group Deputies of the Italian Chamber of Deputies. The prediction algorithm considers a two month window for considering the voting of the Deputies; this window is progressively moved away from the party switch and the classification accuracy is then computed
+
+-) two auxilary functions used in the two MAIN codes
