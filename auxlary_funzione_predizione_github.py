@@ -4,7 +4,7 @@ Created on Thu Oct 22 10:25:03 2020
 @author: Marina e Nicolo
 """
 
-def compute_features_prediction(df_parlamentari,df_votes,moving_wind,offset_window,random_indexes_fedeli):
+def compute_features_voting_deputies_prediction(df_parlamentari,df_votes,moving_wind,offset_window,random_indexes_fedeli):
     
     
     import pandas as pd
