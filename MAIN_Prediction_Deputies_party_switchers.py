@@ -43,7 +43,7 @@ from sklearn.feature_selection import mutual_info_classif
 import random
 
 
-from function_predizione_Alberto_mov_wind_analisi_mov_wind import function_predizione_Alberto_mov_wind_analisi_mov_wind
+from compute_features_voting_deputies_prediction import compute_features_voting_deputies_prediction
 
 
 
@@ -151,7 +151,7 @@ for offset_window in tqdm(range(0,420,3)):
     
     for trials in range(5): # repeat the classificaiton considering a two months windows with an offset of offset_window to the party switch
         moving_wind=60 # two months windows in which extracting the voting features of Deputies
-        [single_group_MPs, pluri_group_MPs] = function_predizione_Alberto_mov_wind_analisi_mov_wind(df_parlamentari,df_votes,moving_wind,offset_window,random_indexes_single_group[trials])
+        [single_group_MPs, pluri_group_MPs] = compute_features_voting_deputies_prediction(df_parlamentari,df_votes,moving_wind,offset_window,random_indexes_single_group[trials])
 
     
         X = single_group_MPs.append(pluri_group_MPs) # data of voting and non-voting features of Deputies    
