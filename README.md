@@ -48,11 +48,12 @@ This set of voting features can be found in the freely accessible repository htt
 _______________________________________________________________________________________________
 
 
-The main codes are the following two: 
+The repository contains the following codes:
+
 
 -) MAIN_Classification_Deputies_party_switcher: contains the code for running the classification algorithm between single-party and pluri-group Deputies of the Italian Chamber of Deputies
 
 
 -) MAIN_Prediction_Deputies_party_switcher: contains the code for running the prediction algorithm between single-party and pluri-group Deputies of the Italian Chamber of Deputies. The prediction algorithm considers a two month window for considering the voting of the Deputies; this window is progressively moved away from the party switch and the classification accuracy is then computed
 
--) two auxilary functions used in the two MAIN codes
+-) two auxilary functions used in the two MAIN codes respectively
