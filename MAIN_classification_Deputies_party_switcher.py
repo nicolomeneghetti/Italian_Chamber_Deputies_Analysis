@@ -22,7 +22,7 @@ from sklearn.dummy import DummyClassifier
 from datetime import datetime, timedelta
 from sklearn.utils import shuffle
 from sklearn.feature_selection import mutual_info_classif
-from compute_features_voting_deputies import compute_features_voting_deputies
+from auxilary_compute_features_voting_deputies import compute_features_voting_deputies
 
 def cross_val_function(model, X : np.array, y : np.array):
 
