@@ -43,7 +43,7 @@ from sklearn.feature_selection import mutual_info_classif
 import random
 
 
-from compute_features_voting_deputies_prediction import compute_features_voting_deputies_prediction
+from auxilary_function_compute_features_voting_deputies_prediction import compute_features_voting_deputies_prediction
 
 
 
